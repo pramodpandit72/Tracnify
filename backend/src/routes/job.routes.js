@@ -3,7 +3,7 @@ import { applyJob, getJobApplications } from "../controllers/job.controller.js";
 
 const router = express.Router();
 
-router.post("/", applyJob);
+router.post("/apply", applyJob);
 router.get("/", getJobApplications);
 
 export default router;
